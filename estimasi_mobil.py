@@ -18,3 +18,4 @@ if st.button('Estimasi Harga'):
       [[year, mileage, tax, mpg, engineSize]]
   )
   st.write ('Estimasi Harga Mobil Bekas dalam Ponds : ', predict)
+  st.write ('Estimasi Harga Mobil Bekas dalam IDR (Juta) : ', predict*22000)
